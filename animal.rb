@@ -8,6 +8,7 @@ class Animal
     @name = name
     @number_of_legs = number_of_legs
     @type = type
+    @visits = []
   end
 
   def remove_leg
